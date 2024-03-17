@@ -25,3 +25,8 @@ This is because the behaviour of `complex_function` is non-deterministic (depend
 
 Such non-deterministic behaviour is not uncommon in real-world software system.
 How can we test such non-deterministic behaviour? Think about this. (No need to implement anything)
+
+- Test property of the output instead of the actual value
+- Check multiple values
+- Do a test for a specific case (if there are any defined)
+- Use a regex to try and capture the behaviour and then test if the output fits the regex
